@@ -39,7 +39,7 @@ class OrderController extends Controller
             $cart->delete();
         }
         
-        return Redirect::route('show_detail_order', $order);
+        return Redirect::route('showDetailOrder', $order);
     }
 
     public function show_order(){
